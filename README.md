@@ -8,8 +8,8 @@ Live site - https://covid-19-nigeria-data-frontend-task.vercel.app/
 
 ## Screenshots
 
-![screenshot1](/src/Images/screenshot1.png)
-![screenshot2](/src/Images/screenshot2.png)
+![screenshot1](/src/Images/Screenshot1.png)
+![screenshot2](/src/Images/Screenshot2.png)
 
 ## Set Up
 
