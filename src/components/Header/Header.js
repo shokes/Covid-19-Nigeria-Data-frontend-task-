@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux';
+import './Header.css';
 
 const Header = () => {
   const { cases } = useSelector((store) => store.cases);

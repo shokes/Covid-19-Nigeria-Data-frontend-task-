@@ -1,9 +1,9 @@
 import { getCases } from './features/cases/casesSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import Header from './components/Header';
-import Table from './components/Table';
-import Loading from './components/Loading';
+import Header from './components/Header/Header';
+import Table from './components/Table/Table';
+import Loading from './components/Loading/Loading';
 
 function App() {
   const { isLoading } = useSelector((store) => store.cases);

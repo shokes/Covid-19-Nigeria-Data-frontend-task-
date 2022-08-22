@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux';
+import './Table.css';
 
 const Table = () => {
   const { cases } = useSelector((store) => store.cases);
