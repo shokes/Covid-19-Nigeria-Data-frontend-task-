@@ -13,8 +13,9 @@
 }
 
 .boxes {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
   align-items: center;
 }
 
@@ -54,4 +55,27 @@
 .figure {
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+@media (max-width: 35em) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5 {
+    width: 10rem;
+  }
+
+  .case {
+    font-size: 0.9rem;
+  }
 }

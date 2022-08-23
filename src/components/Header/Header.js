@@ -16,27 +16,27 @@ const Header = () => {
       <h3 className='heading'>Covid-19 Nigeria</h3>
       <div className='boxes'>
         <div className='box-1'>
-          <h3>Confirmed Cases</h3>
+          <h3 className='case'>Confirmed Cases</h3>
           <span className='figure'>{totalConfirmedCases}</span>
         </div>
         <div className='box-2'>
           {' '}
-          <h3>Active Cases</h3>
+          <h3 className='case'>Active Cases</h3>
           <span className='figure'>{totalActiveCases}</span>
         </div>
         <div className='box-3'>
           {' '}
-          <h3>Discharged Cases</h3>
+          <h3 className='case'>Discharged Cases</h3>
           <span className='figure'>{discharged}</span>
         </div>
         <div className='box-4'>
           {' '}
-          <h3>Death</h3>
+          <h3 className='case'>Death</h3>
           <span className='figure'>{death}</span>
         </div>
         <div className='box-5'>
           {' '}
-          <h3>Samples Tested</h3>
+          <h3 className='case'>Samples Tested</h3>
           <span className='figure'>{totalSamplesTested}</span>
         </div>
       </div>
